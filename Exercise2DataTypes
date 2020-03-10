@@ -1,0 +1,18 @@
+#Sorting numbers in list ascending order
+cars = [56,78,34,21,56,34, 125,45, 89, 75,12,56,]
+cars.sort()
+print(cars)
+
+#Adding all numbers in a list
+Sum = sum(cars)
+print(Sum)
+
+#if you want to remove 1
+cars.remove(34)
+cars.remove(56)
+cars.remove(56)
+print(cars)
+
+#What if you have a million numbers in a computer(You can't even view)
+cars= list(dict.fromkeys(cars))
+print(cars)
